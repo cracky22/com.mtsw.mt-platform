@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de-De">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style-startMenuIndex.css">
+    <link rel="stylesheet" href="./src/mdl/style-mdl.css">
+    <link rel="stylesheet" href="./src/mdl/style-googleAPI.css">
+    <script src="./src/mdl/script-mdl.js"></script>
+    <script src="./src/js/script-index.js"></script>
+</head>
+
+<body style="background-color: #c6cceb;">
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+          <div class="mdl-layout__header-row">
+              <span class="mdl-layout-title"><b>Menü</b></span>
+              <div class="mdl-layout-spacer"></div>
+              <nav class="mdl-navigation mdl-layout--large-screen-only">
+                  <a class="mdl-navigation__link">QR-Code dieser Seite&NonBreakingSpace;<i>(tippe)</i> &emsp;
+                      <img class="startMenu" src="./src/img/startMenu.png">
+                  </a>
+                  </a>
+              </nav>
+          </div>
+      </header>
+      <div class="mdl-layout__drawer">
+          <span class="mdl-layout-title">Menü</span>
+          <nav class="mdl-navigation">
+              <a class="mdl-navigation__link" href="../teacherReport/index.html?comeFrom=../startMenu/index.html;">Problem melden</a>
+              <a class="mdl-navigation__link" href="../mt-portal/login.php?comeFrom=../startMenu/index.html;">Medientutoren Portal</a>
+              <a class="mdl-navigation__link" href="../techHelp/index.html?comeFrom=../startMenu/index.html;">Hilfe / Anleitungen</a>
+          </nav>
+      </div>
+      <main class="mdl-layout__content">
+          <div class="page-content">
+              <div class="actions">
+                  <span>
+                      <a class="boxURL" href="../teacherReport/index.html?comeFrom=../startMenu/index.html">
+                          <div class="box">
+                              <img src="./src/img/mt-portal_teacherReport.png">
+                          </div>
+                      </a>
+
+                      <a class="boxURL" href="../mt-portal/index.php?comeFrom=../startMenu/index.html">
+                          <div class="box">
+                              <img src="./src/img/mt-portal_login.png">
+                          </div>
+                      </a>
+
+                      <a class="boxURL" href="../techHelp/index.html?comeFrom=../startMenu/index.html">
+                          <div class="box">
+                              <img src="./src/img/mt-portal_help-Tutorial.png">
+                          </div>
+                      </a>
+                  </span>
+                  <span>&emsp;&emsp;&emsp;&emsp;
+                      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                      <h6 class="txt1">Problem melden</h6>
+                      
+                      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                      <h6 class="txt2">Medientutoren Login</h6>
+                      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                      &emsp;&emsp;&nbsp;&nbsp;
+                      <h6 style="text-align:left;">Anleitungen&nbsp;/&nbsp;Hilfe&nbsp;/&nbsp;Tutorials</h6>
+                  </span>
+              </div>
+          </div>
+      </main>
+  </div>
+
+</body>
+
+</html>
